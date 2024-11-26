@@ -13,15 +13,18 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App {
+  background-color: #c0cbdf;
+  max-width: 600px;
+  padding: 30px;
+  margin: 30px auto;
+  box-shadow: 0 30px 50px rgba(17, 19, 23, 0.08);
+  background: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  border-radius: 10px;
+}
+
+ul li {
+  text-decoration: none;
 }
 
 .App-link {
