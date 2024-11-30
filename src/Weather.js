@@ -35,11 +35,10 @@ export default function Weather() {
         type="search"
         placeholder="Enter a city..."
         onChange={updateCity}
+        className="Input"
       />
-      <input type="submit" value="Search" />
+      <input type="submit" className="Search" value="Search" />
     </form>
-    
-    
   );
 
   if (loaded) {
