@@ -1,0 +1,14 @@
+body {
+  background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.App {
+  max-width: 800px;
+  padding: 20px 10px;
+  margin: 40px auto;
+  box-shadow: 0 30px 50px rgba(17, 19, 23, 0.08);
+  background-color: rgb(231, 239, 244);
+  border-radius: 10px;
+}
